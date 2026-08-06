@@ -10,15 +10,20 @@ The project demonstrates practical implementation of enterprise networking conce
 
 ## Features
 
-- Multi-department campus network
-- LAN implementation
-- Router and Switch configuration
-- IPv4 Addressing & Subnetting
-- Static Routing / RIP
-- VLAN Configuration
-- End-to-End Connectivity
-- Network Simulation
-- Connectivity Verification using Ping
+- Campus network simulation using Cisco Packet Tracer
+- Multi-building university topology
+- Main and Branch campus connectivity
+- VLAN segmentation (10 VLANs)
+- Inter-VLAN Routing (Router-on-a-Stick)
+- Dynamic IP allocation using DHCP
+- DNS-based hostname resolution
+- RIP v2 dynamic routing
+- Internal Web Server (HTTP/HTTPS)
+- Internal Email Server (SMTP/POP3)
+- FTP Server for file transfer
+- Printer connectivity
+- Dynamic routing between campuses
+- End-to-end connectivity verification
 
 ---
 
@@ -73,6 +78,21 @@ Results/
 ✔ Inter-LAN Communication
 
 ✔ Routing Verification
+
+---
+
+## Results
+
+Successfully demonstrated:
+
+- VLAN communication
+- Inter-campus routing
+- DHCP address assignment
+- DNS resolution
+- Email communication
+- HTTP web hosting
+- FTP connectivity
+- Successful ping tests across campuses
 
 ---
 
