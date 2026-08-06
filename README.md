@@ -86,27 +86,27 @@ The topology illustrates:
 
 ## Folder Structure
 
-University-Campus-Networking-System
-│
-├── Network-Topology/
-├── Configurations/
-├── Documentation/
-├── Screenshots/
-└── README.md
-
+- University-Campus-Networking-System
+- │
+- ├── Network-Topology/
+- ├── Configurations/
+- ├── Documentation/
+- ├── Screenshots/
+- └── README.md
+  
 ---
 
 ## Testing
 
-✔ DHCP Address Assignment
-✔ VLAN Connectivity
-✔ Inter-VLAN Routing
-✔ RIP Routing Verification
-✔ End-to-End Ping Tests
-✔ DNS Resolution
-✔ HTTP Web Server Access
-✔ FTP Connectivity
-✔ Email Communication (SMTP/POP3)
+- ✔ DHCP Address Assignment
+- ✔ VLAN Connectivity
+- ✔ Inter-VLAN Routing
+- ✔ RIP Routing Verification
+- ✔ End-to-End Ping Tests
+- ✔ DNS Resolution
+- ✔ HTTP Web Server Access
+- ✔ FTP Connectivity
+- ✔ Email Communication (SMTP/POP3)
 
 ---
 
