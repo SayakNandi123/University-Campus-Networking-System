@@ -7,6 +7,8 @@ This folder contains the configuration files and command outputs for the network
 - Main Campus Router
 - Branch Campus Router
 - Cloud Router
+- Main Campus L3 Switch
+- Branch Campus L3 Switch
 
 ## Configuration Highlights
 
