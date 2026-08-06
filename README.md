@@ -1,3 +1,8 @@
+![Cisco Packet Tracer](https://img.shields.io/badge/Cisco-Packet%20Tracer-blue)
+![Networking](https://img.shields.io/badge/Domain-Computer%20Networks-green)
+![Routing](https://img.shields.io/badge/Routing-RIP%20v2-orange)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+
 # University Campus Networking System
 
 ## Overview
