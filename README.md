@@ -139,7 +139,7 @@ The simulated university network successfully achieved:
 
 **Sayak Nandi**
 
-B.Tech (Hons.) in Electronics & Communication Engineering (ECE)
+B.Tech (Hons.) in Electronics & Communication Engineering (ECE)<br>
 Institute of Engineering & Management (IEM), Kolkata
 
 GitHub: https://github.com/SayakNandi123
