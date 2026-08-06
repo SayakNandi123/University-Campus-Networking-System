@@ -5,6 +5,7 @@
 This project presents the design and simulation of a scalable university campus network using Cisco Packet Tracer. The network connects multiple academic departments through Local Area Networks (LANs) while enabling secure and reliable inter-department communication using routing protocols.
 
 The project demonstrates the practical implementation of enterprise networking concepts, including IP addressing, subnetting, VLAN segmentation, inter-VLAN routing, dynamic routing, network services, and end-to-end communication validation.
+
 ---
 
 ## Features
