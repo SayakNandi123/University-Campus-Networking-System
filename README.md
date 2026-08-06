@@ -26,9 +26,36 @@ The project demonstrates the practical implementation of enterprise networking c
 
 ---
 
+## Network Services
+
+The campus network provides the following enterprise services:
+
+- DHCP Server – Automatic IP address assignment
+- DNS Server – Hostname resolution
+- HTTP/HTTPS Server – University web portal
+- FTP Server – Internal file transfer
+- Email Server – SMTP and POP3 services
+
+---
+
 ## Network Architecture
 
-The university consists of multiple departments connected through routers and switches.
+The university campus network is designed using a hierarchical architecture consisting of a Main Campus, Branch Campus, and centralized network services. The infrastructure includes VLAN segmentation, Router-on-a-Stick inter-VLAN routing, RIP v2 dynamic routing, DHCP, DNS, HTTP, FTP, and Email services.
+
+### Overall Network Topology
+
+<p align="center">
+  <img src="Network-Topology/Network_Topology.png" alt="University Campus Network Topology" width="900"/>
+</p>
+
+The topology illustrates:
+
+- Main Campus with eight departmental VLANs
+- Branch Campus with Staff and Student Lab VLANs
+- Router-on-a-Stick implementation
+- RIP v2 connectivity between campuses
+- Centralized DNS, HTTP, FTP, and Email servers
+- End-to-end communication across the university network
 
 ---
 
@@ -58,40 +85,43 @@ The university consists of multiple departments connected through routers and sw
 
 ## Folder Structure
 
-Network-Topology/
-Configurations/
-Documentation/
-Screenshots/
-Results/
+University-Campus-Networking-System
+│
+├── Network-Topology/
+├── Configurations/
+├── Documentation/
+├── Screenshots/
+└── README.md
 
 ---
 
 ## Testing
 
-✔ Ping Test
-
-✔ Router Connectivity
-
-✔ Switch Connectivity
-
-✔ Inter-LAN Communication
-
-✔ Routing Verification
+✔ DHCP Address Assignment
+✔ VLAN Connectivity
+✔ Inter-VLAN Routing
+✔ RIP Routing Verification
+✔ End-to-End Ping Tests
+✔ DNS Resolution
+✔ HTTP Web Server Access
+✔ FTP Connectivity
+✔ Email Communication (SMTP/POP3)
 
 ---
 
 ## Results
 
-Successfully demonstrated:
+The simulated university network successfully achieved:
 
-- VLAN communication
-- Inter-campus routing
-- DHCP address assignment
-- DNS resolution
-- Email communication
-- HTTP web hosting
-- FTP connectivity
-- Successful ping tests across campuses
+- Dynamic IP allocation through DHCP
+- VLAN segmentation for departmental isolation
+- Inter-VLAN communication using Router-on-a-Stick
+- RIP v2 dynamic routing between campuses
+- Successful DNS name resolution
+- Functional HTTP web server
+- Functional FTP server
+- Internal email communication using SMTP/POP3
+- End-to-end connectivity across all departments
 
 ---
 
@@ -108,6 +138,7 @@ Successfully demonstrated:
 
 **Sayak Nandi**
 
-B.Tech Electronics & Communication Engineering (ECE)
+B.Tech (Hons.) in Electronics & Communication Engineering (ECE)
+Institute of Engineering & Management (IEM), Kolkata
 
-Institute of Engineering & Management, Kolkata
+GitHub: https://github.com/SayakNandi123
